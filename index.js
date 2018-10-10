@@ -3,6 +3,13 @@ function takeANumber(katzDeliLine, newName) {
   return `Welcome, ${newName}. You are number ${katzDeliLine.length} in line.`;
 }
 
+var i = 0;
+
+function takeANumber(katzDeliLine) {
+  katzDeliLine.push(i++);
+  return 
+}
+
 function nowServing(katzDeliLine) {
   if (katzDeliLine.length > 0) {
     return `Currently serving ${katzDeliLine.shift()}.`;
